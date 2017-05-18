@@ -34,7 +34,7 @@
 		$address=$request->add; 
 		$pincode=$request->pin; 
 		
-		$conn = new mysqli("localhost", "groupwls_daniel", "IJxC&{cruv]e", "groupwls_tienda");
+		$conn = new mysqli("localhost", "user", "password", "db");
 		
 		// To protect MySQL injection for Security purpose
 		$name = stripslashes($name);
